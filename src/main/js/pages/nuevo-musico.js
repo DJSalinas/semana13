@@ -3,9 +3,6 @@ const {useState} = require('react');
 const { Link } = require('react-router-dom');
 const client = require('../client');
 
-
-
-
 const NuevoMusicoPage = () => {
 
     const [nombre, setNombre] = useState('')
