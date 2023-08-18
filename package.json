@@ -27,9 +27,10 @@
     },
     "scripts": {
         "watch": "webpack --watch -d --output ./target/classes/static/built/bundle.js",
-        "wp": "webpack",
+        "wp": "node --openssl-legacy-provider ./node_modules/webpack-cli/bin/cli.js",
         "idat": "echo IDAT",
-        "gg": "git add . && git commit -m hola && git pull && git push"
+        "gg": "git add . && git commit -m hola && git pull && git push",
+        "hh": "echo HolaMundo"
     },
     "devDependencies": {
         "@babel/core": "^7.1.0",

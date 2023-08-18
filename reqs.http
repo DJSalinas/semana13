@@ -1,4 +1,4 @@
-@server = https://glowing-couscous-j4q5xwwpw257g5-8080.app.github.dev
+@server = https://glowing-telegram-r9vvx4vj65wfxjxg-8080.app.github.dev
 ###
 GET {{server}}/api/instrumentos/2
 ###
